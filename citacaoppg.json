@@ -1,0 +1,1520 @@
+{ "head": {
+    "vars": [ "programaNome" , "ano" , "totalCitacoes" , "qtdProducoes" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "programaNome": { "type": "literal" , "value": "ADMINISTRACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "89" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ADMINISTRACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "50" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "AGRONOMIA  MELHORAMENTO GENETICO DE PLANTAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "70" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "AGRONOMIA  PRODUCAO VEGETAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "31" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ANTROPOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "358" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ANTROPOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "290" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ANTROPOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1025" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ANTROPOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1301" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "22" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "BIODIVERSIDADE E CONSERVACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "207" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "BIODIVERSIDADE E CONSERVACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "BIODIVERSIDADE E CONSERVACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "84" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "BIOLOGIA ANIMAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "144" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "BIOLOGIA ANIMAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "174" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "BIOLOGIA VEGETAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "92" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "BIOLOGIA VEGETAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "203" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "BIOMETRIA E ESTATISTICA APLICADA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "25" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA ANIMAL E PASTAGENS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "143" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA ANIMAL E PASTAGENS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "81" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA DA INFORMACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "114" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA DA INFORMACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "114" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA DA INFORMACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "197" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA DE MATERIAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "9" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA DE MATERIAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "51" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA DO SOLO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "110" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA DO SOLO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "132" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA E TECNOLOGIA AMBIENTAL PARA O SEMIARIDO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "121" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA E TECNOLOGIA AMBIENTAL PARA O SEMIARIDO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "63" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA E TECNOLOGIA DE ALIMENTOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "10" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA POLITICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1278" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "17" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA POLITICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "406" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "8" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA POLITICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2764" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "34" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA POLITICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "972" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS AMBIENTAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "8" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS CONTABEIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "100" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA COMPUTACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "88" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA LINGUAGEM" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1259" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "16" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA LINGUAGEM" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "379" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA LINGUAGEM" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1040" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA LINGUAGEM" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "728" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "8" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA RELIGIAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1585" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "18" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA RELIGIAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "724" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "9" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA RELIGIAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "985" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA RELIGIAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2515" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "27" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA SAUDE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "177" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA SAUDE E BIOLOGICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "146" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA SAUDE E BIOLOGICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "122" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS FARMACEUTICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "228" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS FLORESTAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "128" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS FLORESTAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "152" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS GEODESICAS E TECNOLOGIAS DA GEOINFORMACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "222" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS SOCIAIS PARA O ENSINO MEDIO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "238" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS SOCIAIS PARA O ENSINO MEDIO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "218" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS SOCIAIS PARA O ENSINO MEDIO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "218" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "COMUNICACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "183" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "COMUNICACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "40" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "COMUNICACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "443" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "COMUNICACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "186" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CUIDADOS INTENSIVOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "223" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CUIDADOS INTENSIVOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "277" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CUIDADOS PALIATIVOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "51" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CUIDADOS PALIATIVOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "53" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CUIDADOS PALIATIVOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "204" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CULTURAS AFRICANAS, DA DIASPORA, E DOS POVOS INDIGENAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "681" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CULTURAS AFRICANAS, DA DIASPORA, E DOS POVOS INDIGENAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "564" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO DE PROCESSOS AMBIENTAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "101" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO DE PROCESSOS AMBIENTAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "101" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "135" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "31" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE UFPI-UFRN-FUFSE-UESC-UFPB/JP" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "177" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE UFPI-UFRN-FUFSE-UESC-UFPB/JP" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "326" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE UFPI-UFRN-FUFSE-UESC-UFPB/JP" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "267" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE UFPI-UFRN-FUFSE-UESC-UFPB/JP" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "746" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "8" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO URBANO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "202" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO URBANO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "548" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO URBANO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "180" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO URBANO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "51" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESIGN" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "42" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESIGN" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "56" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESIGN" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "135" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DINAMICAS DE DESENVOLVIMENTO DO SEMIARIDO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "133" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DINAMICAS DE DESENVOLVIMENTO DO SEMIARIDO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "121" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4061" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "51" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2123" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "31" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3452" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "46" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4562" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "61" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DIREITO, MERCADO, COMPLIANCE E SEGURANCA HUMANA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "563" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DIREITOS HUMANOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "83" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DIREITOS HUMANOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "670" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ECONOMIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1435" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "21" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ECONOMIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1275" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "16" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ECONOMIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1441" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "17" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ECONOMIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "726" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3983" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "53" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3587" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "46" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3471" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "49" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "181" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO CONTEMPORANEA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "46" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO CONTEMPORANEA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "316" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO CONTEMPORANEA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "234" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO CONTEMPORANEA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "101" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO EM CIENCIAS E MATEMATICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "66" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO EM CIENCIAS E MATEMATICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "29" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO PARA O ENSINO NA AREA DE SAUDE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "104" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO PARA O ENSINO NA AREA DE SAUDE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "238" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO, CULTURAS E IDENTIDADES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "162" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO, CULTURAS E IDENTIDADES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "271" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO, CULTURAS E IDENTIDADES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "216" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENFERMAGEM" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "823" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENFERMAGEM - FESP-UPE - UEPB" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "93" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENFERMAGEM - FESP-UPE - UEPB" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "132" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "323" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "102" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "163" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL E AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "116" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL E AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "9" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DA COMPUTACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "118" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DA COMPUTACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "91" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DA COMPUTACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "321" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE PRODUCAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "68" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE PRODUCAO - CENTRO ACADEMICO DO AGRESTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE PRODUCAO - CENTRO ACADEMICO DO AGRESTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "71" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE SISTEMAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "190" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE SISTEMAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "22" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE SISTEMAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "292" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE SOFTWARE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "129" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE SOFTWARE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "71" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA ELETRICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "84" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA FISICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "123" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA QUIMICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "94" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENSINO DAS CIENCIAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "71" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENSINO DAS CIENCIAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "53" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENSINO DAS CIENCIAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "337" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENTOMOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "88" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENTOMOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "113" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ESTATISTICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "566" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ESTATISTICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "607" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "9" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ESTUDOS DA LINGUAGEM" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "52" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ETNOBIOLOGIA E CONSERVACAO DA NATUREZA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "68" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "FILOSOFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "334" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "FILOSOFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "311" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "FILOSOFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1201" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "13" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "FILOSOFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1737" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "25" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "FITOPATOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "233" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "FITOPATOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "534" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "FORMACAO DE PROFESSORES E PRATICAS INTERDISCIPLINARES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1714" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "19" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "FORMACAO DE PROFESSORES E PRATICAS INTERDISCIPLINARES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1157" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "13" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "FORMACAO DE PROFESSORES E PRATICAS INTERDISCIPLINARES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "364" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "FORMACAO DE PROFESSORES E PRATICAS INTERDISCIPLINARES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1013" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GEOCIENCIAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "110" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GEOGRAFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GEOGRAFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "101" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GEOGRAFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "23" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GEOGRAFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "245" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GERONTOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1021" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "10" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GERONTOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "484" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "141" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "225" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO DO DESENVOLVIMENTO LOCAL SUSTENTAVEL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "296" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO DO DESENVOLVIMENTO LOCAL SUSTENTAVEL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "427" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO DO DESENVOLVIMENTO LOCAL SUSTENTAVEL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "60" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO DO DESENVOLVIMENTO LOCAL SUSTENTAVEL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "658" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO E ECONOMIA DA SAUDE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "143" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO EMPRESARIAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "78" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO PUBLICA PARA O DESENVOLVIMENTO DO NORDESTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "122" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO PUBLICA PARA O DESENVOLVIMENTO DO NORDESTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "575" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO PUBLICA PARA O DESENVOLVIMENTO DO NORDESTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "173" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO PUBLICA PARA O DESENVOLVIMENTO DO NORDESTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "466" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO, INOVACAO E CONSUMO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "122" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "HEBIATRIA - DETERMINANTES DE SAUDE NA ADOLESCENCIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "74" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "HEBIATRIA - DETERMINANTES DE SAUDE NA ADOLESCENCIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "112" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2002" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "30" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4299" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "54" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "28" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1872" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "26" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "HOTELARIA E TURISMO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "55" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "INDUSTRIAS CRIATIVAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2872" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "37" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "INDUSTRIAS CRIATIVAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3271" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "40" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "INDUSTRIAS CRIATIVAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "10254" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "135" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "INDUSTRIAS CRIATIVAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1869" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "27" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "INFORMATICA APLICADA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "86" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "INOVACAO E DESENVOLVIMENTO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "258" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "INOVACAO E DESENVOLVIMENTO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "429" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "INOVACAO E DESENVOLVIMENTO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "277" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "LETRAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1313" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "18" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "LETRAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1556" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "18" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "LETRAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1300" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "18" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "LETRAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1671" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "22" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "MATEMATICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "18" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "MEDICINA TROPICAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "69" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "MORFOTECNOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "435" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "MUSICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "167" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "MUSICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "337" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "MUSICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "674" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "9" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "NUTRICAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "64" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "NUTRICAO, ATIVIDADE FISICA E PLASTICIDADE FENOTIPICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "48" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PATOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "112" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PERICIAS FORENSES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "91" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PERICIAS FORENSES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "143" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PERICIAS FORENSES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "258" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "POLITICAS PUBLICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "505" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "POLITICAS PUBLICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "815" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "8" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "POLITICAS PUBLICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1009" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "POLITICAS PUBLICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "963" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PRATICAS E INOVACAO EM SAUDE MENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "113" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PRATICAS E INOVACAO EM SAUDE MENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "21" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PRODUCAO VEGETAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "21" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1265" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "17" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "819" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "9" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "308" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "134" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA CLINICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "108" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA CLINICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "160" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA CLINICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "331" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA CLINICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "474" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "QUIMICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "57" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "QUIMICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "87" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "QUIMICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "125" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "RECURSOS PESQUEIROS E AQUICULTURA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "365" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "RECURSOS PESQUEIROS E AQUICULTURA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "221" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "RECURSOS PESQUEIROS E AQUICULTURA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "252" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "RECURSOS PESQUEIROS E AQUICULTURA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "182" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE COLETIVA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "476" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE COLETIVA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "194" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE COLETIVA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "142" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE DA CRIANCA E DO ADOLESCENTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "63" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE HUMANA E MEIO AMBIENTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1591" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "20" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE INTEGRAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "95" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE INTEGRAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "117" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE INTEGRAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "332" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE PUBLICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "100" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE PUBLICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "470" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE TRANSLACIONAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "107" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE UNICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "116" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SERVICO SOCIAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "357" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SERVICO SOCIAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "243" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SERVICO SOCIAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1372" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "19" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SERVICO SOCIAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1910" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "27" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SOCIOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "934" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SOCIOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1165" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "13" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SOCIOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1878" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "23" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "TECNOLOGIA AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "105" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "TECNOLOGIA AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "234" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "TECNOLOGIA AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "96" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "TECNOLOGIA AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "320" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "TECNOLOGIA E GESTAO EM EDUCACAO A DISTANCIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "44" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "TEOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "903" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "13" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "TEOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1525" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "19" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "TEOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "765" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "16" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "TEOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1123" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ZOOTECNIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1134" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "17" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ZOOTECNIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "totalCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "211" } ,
+        "qtdProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      }
+    ]
+  }
+}

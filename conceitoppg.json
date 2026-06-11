@@ -1,0 +1,593 @@
+{ "head": {
+    "vars": [ "programaNome" , "conceito" , "producoes" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "programaNome": { "type": "literal" , "value": "INDUSTRIAS CRIATIVAS" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "239" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "187" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "144" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "93" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "LETRAS" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "76" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA POLITICA" } ,
+        "conceito": { "type": "literal" , "value": "6" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "74" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ECONOMIA" } ,
+        "conceito": { "type": "literal" , "value": "6" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "69" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA RELIGIAO" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "66" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "TEOLOGIA" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "63" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SERVICO SOCIAL" } ,
+        "conceito": { "type": "literal" , "value": "6" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "54" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "FORMACAO DE PROFESSORES E PRATICAS INTERDISCIPLINARES" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "48" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ANTROPOLOGIA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "48" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SOCIOLOGIA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "48" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "FILOSOFIA" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "47" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "POLITICAS PUBLICAS" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "39" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA LINGUAGEM" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "39" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "37" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "29" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO DO DESENVOLVIMENTO LOCAL SUSTENTAVEL" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "21" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE HUMANA E MEIO AMBIENTE" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "20" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE UFPI-UFRN-FUFSE-UESC-UFPB/JP" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "20" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO PUBLICA PARA O DESENVOLVIMENTO DO NORDESTE" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "19" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "MUSICA" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "17" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GERONTOLOGIA" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "16" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA CLINICA" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "16" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "INOVACAO E DESENVOLVIMENTO" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ESTATISTICA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "COMUNICACAO" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE COLETIVA" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "RECURSOS PESQUEIROS E AQUICULTURA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CULTURAS AFRICANAS, DA DIASPORA, E DOS POVOS INDIGENAS" } ,
+        "conceito": { "type": "literal" , "value": "1" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO URBANO" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENFERMAGEM" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "TECNOLOGIA AMBIENTAL" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS SOCIAIS PARA O ENSINO MEDIO" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "10" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ZOOTECNIA" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "10" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA DA INFORMACAO" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "10" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ZOOTECNIA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "9" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DIREITOS HUMANOS" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "8" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO CONTEMPORANEA" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "8" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO, CULTURAS E IDENTIDADES" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "8" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "8" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "FITOPATOLOGIA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "8" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE PUBLICA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "8" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DA COMPUTACAO" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "MORFOTECNOLOGIA" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE SISTEMAS" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENSINO DAS CIENCIAS" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "BIODIVERSIDADE E CONSERVACAO" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CUIDADOS INTENSIVOS" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DIREITO, MERCADO, COMPLIANCE E SEGURANCA HUMANA" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO PARA O ENSINO NA AREA DE SAUDE" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CUIDADOS PALIATIVOS" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE SOFTWARE" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PERICIAS FORENSES" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GEOGRAFIA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE INTEGRAL" } ,
+        "conceito": { "type": "literal" , "value": "6" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "conceito": { "type": "literal" , "value": "6" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "BIOLOGIA VEGETAL" } ,
+        "conceito": { "type": "literal" , "value": "7" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA ANIMAL E PASTAGENS" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DINAMICAS DE DESENVOLVIMENTO DO SEMIARIDO" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "EDUCACAO EM CIENCIAS E MATEMATICA" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO AMBIENTAL" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS FARMACEUTICAS" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS FLORESTAIS" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS GEODESICAS E TECNOLOGIAS DA GEOINFORMACAO" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO DE PROCESSOS AMBIENTAIS" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL E AMBIENTAL" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA DO SOLO" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESIGN" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "QUIMICA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "BIOLOGIA ANIMAL" } ,
+        "conceito": { "type": "literal" , "value": "6" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA SAUDE" } ,
+        "conceito": { "type": "literal" , "value": "2" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PATOLOGIA" } ,
+        "conceito": { "type": "literal" , "value": "2" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE PRODUCAO - CENTRO ACADEMICO DO AGRESTE" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA E TECNOLOGIA AMBIENTAL PARA O SEMIARIDO" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA SAUDE E BIOLOGICAS" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENFERMAGEM - FESP-UPE - UEPB" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PRATICAS E INOVACAO EM SAUDE MENTAL" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ADMINISTRACAO" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA DE MATERIAIS" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "HEBIATRIA - DETERMINANTES DE SAUDE NA ADOLESCENCIA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENTOMOLOGIA" } ,
+        "conceito": { "type": "literal" , "value": "6" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "conceito": { "type": "literal" , "value": "2" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIA E TECNOLOGIA DE ALIMENTOS" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA FISICA" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ESTUDOS DA LINGUAGEM" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO EMPRESARIAL" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO, INOVACAO E CONSUMO" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "HOTELARIA E TURISMO" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "INFORMATICA APLICADA" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE DA CRIANCA E DO ADOLESCENTE" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE TRANSLACIONAL" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "SAUDE UNICA" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "TECNOLOGIA E GESTAO EM EDUCACAO A DISTANCIA" } ,
+        "conceito": { "type": "literal" , "value": "3" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "AGRONOMIA  MELHORAMENTO GENETICO DE PLANTAS" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "AGRONOMIA  PRODUCAO VEGETAL" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS AMBIENTAIS" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS CONTABEIS" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE PRODUCAO" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GEOCIENCIAS" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "NUTRICAO, ATIVIDADE FISICA E PLASTICIDADE FENOTIPICA" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "PRODUCAO VEGETAL" } ,
+        "conceito": { "type": "literal" , "value": "4" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "BIOMETRIA E ESTATISTICA APLICADA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA ELETRICA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA QUIMICA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "ETNOBIOLOGIA E CONSERVACAO DA NATUREZA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "GESTAO E ECONOMIA DA SAUDE" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "MATEMATICA" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "MEDICINA TROPICAL" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "NUTRICAO" } ,
+        "conceito": { "type": "literal" , "value": "5" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA COMPUTACAO" } ,
+        "conceito": { "type": "literal" , "value": "7" } ,
+        "producoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      }
+    ]
+  }
+}

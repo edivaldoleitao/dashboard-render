@@ -1,0 +1,1598 @@
+{ "head": {
+    "vars": [ "instituicaoDisplay" , "programaNome" , "ano" , "mediaCiteScore" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_CERS" } ,
+        "programaNome": { "type": "literal" , "value": "DIREITO, MERCADO, COMPLIANCE E SEGURANCA HUMANA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.2" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_CERS" } ,
+        "programaNome": { "type": "literal" , "value": "GESTAO, INOVACAO E CONSUMO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "25.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_CESAR" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE SOFTWARE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.25" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_CESAR" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE SOFTWARE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FADIC" } ,
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "6.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FADIC" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA ELETRICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "20.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FADIC" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA FISICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FADIC" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA QUIMICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FADIC" } ,
+        "programaNome": { "type": "literal" , "value": "GESTAO E ECONOMIA DA SAUDE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FADIC" } ,
+        "programaNome": { "type": "literal" , "value": "HOTELARIA E TURISMO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "23.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FADIC" } ,
+        "programaNome": { "type": "literal" , "value": "MATEMATICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "17.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FADIC" } ,
+        "programaNome": { "type": "literal" , "value": "NUTRICAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FADIC" } ,
+        "programaNome": { "type": "literal" , "value": "PRODUCAO VEGETAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "19.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FG" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA POLITICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "10.6470585" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FG" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA POLITICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.375" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FG" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA POLITICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.617647" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FG" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA POLITICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.066667" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FG" } ,
+        "programaNome": { "type": "literal" , "value": "INOVACAO E DESENVOLVIMENTO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.666667" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FG" } ,
+        "programaNome": { "type": "literal" , "value": "INOVACAO E DESENVOLVIMENTO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "16.666666" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FG" } ,
+        "programaNome": { "type": "literal" , "value": "INOVACAO E DESENVOLVIMENTO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "10.333333" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "ANTROPOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.666667" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "ANTROPOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "18.4" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "ANTROPOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.6" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "ANTROPOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.090909" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA COMPUTACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS GEODESICAS E TECNOLOGIAS DA GEOINFORMACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.333333" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "COMUNICACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "19.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "COMUNICACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "COMUNICACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "7.6666665" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "COMUNICACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO URBANO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "20.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO URBANO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "16.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO URBANO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "8.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO URBANO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "DIREITOS HUMANOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "5.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "DIREITOS HUMANOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.285714" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO EM CIENCIAS E MATEMATICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "16.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO EM CIENCIAS E MATEMATICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "21.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "18.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "25.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "5.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "ESTUDOS DA LINGUAGEM" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "21.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "GEOCIENCIAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "GERONTOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.2" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "GERONTOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.333333" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "INFORMATICA APLICADA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "5.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "MUSICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "17.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "MUSICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "7.3333335" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "MUSICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "17.555555" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "NUTRICAO, ATIVIDADE FISICA E PLASTICIDADE FENOTIPICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "21.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "8.333333" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "17.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "SAUDE PUBLICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "20.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "SAUDE PUBLICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FIOCRUZ_NESC_CPQAM" } ,
+        "programaNome": { "type": "literal" , "value": "SAUDE UNICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "2.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FJN" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS SOCIAIS PARA O ENSINO MEDIO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "8.666667" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FJN" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS SOCIAIS PARA O ENSINO MEDIO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.75" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FJN" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS SOCIAIS PARA O ENSINO MEDIO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "10.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA DE MATERIAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "23.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA DE MATERIAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "17.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA LINGUAGEM" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "10.625" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA LINGUAGEM" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.666667" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA LINGUAGEM" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "16.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA LINGUAGEM" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.875" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.153846" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "6.2" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.944445" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.5348835" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO PARA O ENSINO NA AREA DE SAUDE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO PARA O ENSINO NA AREA DE SAUDE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "17.333334" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "HEBIATRIA - DETERMINANTES DE SAUDE NA ADOLESCENCIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "17.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "HEBIATRIA - DETERMINANTES DE SAUDE NA ADOLESCENCIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "PERICIAS FORENSES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "22.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "PERICIAS FORENSES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FPS" } ,
+        "programaNome": { "type": "literal" , "value": "PERICIAS FORENSES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "17.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FUFSE" } ,
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE UFPI-UFRN-FUFSE-UESC-UFPB/JP" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "8.666667" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FUFSE" } ,
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE UFPI-UFRN-FUFSE-UESC-UFPB/JP" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.2" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FUFSE" } ,
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE UFPI-UFRN-FUFSE-UESC-UFPB/JP" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "7.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_FUFSE" } ,
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE UFPI-UFRN-FUFSE-UESC-UFPB/JP" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.375" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IFPE" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS CONTABEIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "6.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IFPE" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA SAUDE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IFPE" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS FARMACEUTICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "17.666666" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IFPE" } ,
+        "programaNome": { "type": "literal" , "value": "ESTATISTICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IFPE" } ,
+        "programaNome": { "type": "literal" , "value": "ESTATISTICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.222222" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IFPE" } ,
+        "programaNome": { "type": "literal" , "value": "GESTAO AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IFPE" } ,
+        "programaNome": { "type": "literal" , "value": "GESTAO AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "16.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IFPE" } ,
+        "programaNome": { "type": "literal" , "value": "PATOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "10.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IFPE" } ,
+        "programaNome": { "type": "literal" , "value": "POLITICAS PUBLICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.6" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IFPE" } ,
+        "programaNome": { "type": "literal" , "value": "POLITICAS PUBLICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IFPE" } ,
+        "programaNome": { "type": "literal" , "value": "POLITICAS PUBLICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IFPE" } ,
+        "programaNome": { "type": "literal" , "value": "POLITICAS PUBLICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "10.75" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IFPE" } ,
+        "programaNome": { "type": "literal" , "value": "SAUDE HUMANA E MEIO AMBIENTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.2" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "ADMINISTRACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "19.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "ADMINISTRACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "7.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA RELIGIAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.166667" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA RELIGIAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.888889" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA RELIGIAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA RELIGIAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.407408" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "CUIDADOS INTENSIVOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "CUIDADOS INTENSIVOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "20.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "CUIDADOS PALIATIVOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "16.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "CUIDADOS PALIATIVOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "21.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "CUIDADOS PALIATIVOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO DE PROCESSOS AMBIENTAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO DE PROCESSOS AMBIENTAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "24.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL E AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL E AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.6470585" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.777778" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "18.333334" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA CLINICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA CLINICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA CLINICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "PSICOLOGIA CLINICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "16.571428" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "SAUDE INTEGRAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "25.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "SAUDE INTEGRAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "2.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_IMIP" } ,
+        "programaNome": { "type": "literal" , "value": "SAUDE INTEGRAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.333333" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_ITEP" } ,
+        "programaNome": { "type": "literal" , "value": "TECNOLOGIA AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "7.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_ITEP" } ,
+        "programaNome": { "type": "literal" , "value": "TECNOLOGIA AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.75" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_ITEP" } ,
+        "programaNome": { "type": "literal" , "value": "TECNOLOGIA AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "19.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_ITEP" } ,
+        "programaNome": { "type": "literal" , "value": "TECNOLOGIA AMBIENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "18.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_AREIA" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA ANIMAL E PASTAGENS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_AREIA" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA ANIMAL E PASTAGENS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_AREIA" } ,
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "21.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_AREIA" } ,
+        "programaNome": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "8.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_AREIA" } ,
+        "programaNome": { "type": "literal" , "value": "ENFERMAGEM" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.454545" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_AREIA" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_AREIA" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_AREIA" } ,
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_AREIA" } ,
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.941176" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_AREIA" } ,
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "16.444445" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_AREIA" } ,
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.9" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "BIOLOGIA ANIMAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "7.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "BIOLOGIA ANIMAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "ECONOMIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "16.190475" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "ECONOMIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.4375" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "ECONOMIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.235294" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "ECONOMIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.333333" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO CONTEMPORANEA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO CONTEMPORANEA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "18.666666" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO CONTEMPORANEA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.666667" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO CONTEMPORANEA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "4.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE PRODUCAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "1.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "ENSINO DAS CIENCIAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "8.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "ENSINO DAS CIENCIAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "ENSINO DAS CIENCIAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.75" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "GESTAO PUBLICA PARA O DESENVOLVIMENTO DO NORDESTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "GESTAO PUBLICA PARA O DESENVOLVIMENTO DO NORDESTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "GESTAO PUBLICA PARA O DESENVOLVIMENTO DO NORDESTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.666667" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "GESTAO PUBLICA PARA O DESENVOLVIMENTO DO NORDESTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "10.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "PRATICAS E INOVACAO EM SAUDE MENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "10.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "PRATICAS E INOVACAO EM SAUDE MENTAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "7.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "SAUDE COLETIVA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "18.2" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "SAUDE COLETIVA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "20.333334" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "SAUDE COLETIVA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "SERVICO SOCIAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.6" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "SERVICO SOCIAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.666667" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "SERVICO SOCIAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.789474" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "SERVICO SOCIAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.333333" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "SOCIOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "SOCIOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.769231" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPB_JP" } ,
+        "programaNome": { "type": "literal" , "value": "SOCIOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.521739" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPE" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA DA INFORMACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "22.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPE" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA DA INFORMACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.333333" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPE" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA DA INFORMACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.2" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPE" } ,
+        "programaNome": { "type": "literal" , "value": "FILOSOFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "16.4" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPE" } ,
+        "programaNome": { "type": "literal" , "value": "FILOSOFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPE" } ,
+        "programaNome": { "type": "literal" , "value": "FILOSOFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.538462" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPE" } ,
+        "programaNome": { "type": "literal" , "value": "FILOSOFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.6" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFPE" } ,
+        "programaNome": { "type": "literal" , "value": "MORFOTECNOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UFRPE" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS AMBIENTAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "6.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "AGRONOMIA  MELHORAMENTO GENETICO DE PLANTAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "BIODIVERSIDADE E CONSERVACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "BIODIVERSIDADE E CONSERVACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "BIODIVERSIDADE E CONSERVACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "23.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "BIOLOGIA VEGETAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "5.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "BIOLOGIA VEGETAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "16.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA DO SOLO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "18.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA DO SOLO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "2.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA E TECNOLOGIA DE ALIMENTOS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "4.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA SAUDE E BIOLOGICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "24.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS DA SAUDE E BIOLOGICAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "24.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS FLORESTAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIAS FLORESTAIS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "21.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "CULTURAS AFRICANAS, DA DIASPORA, E DOS POVOS INDIGENAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.333333" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "CULTURAS AFRICANAS, DA DIASPORA, E DOS POVOS INDIGENAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "DESIGN" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "8.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "DESIGN" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "6.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "DESIGN" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "4.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.754717" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.608696" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.122449" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO, CULTURAS E IDENTIDADES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO, CULTURAS E IDENTIDADES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "6.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "EDUCACAO, CULTURAS E IDENTIDADES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "8.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DA COMPUTACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "6.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DA COMPUTACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "7.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DA COMPUTACAO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "18.75" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE PRODUCAO - CENTRO ACADEMICO DO AGRESTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "17.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE PRODUCAO - CENTRO ACADEMICO DO AGRESTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE SISTEMAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "6.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE SISTEMAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "24.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ENGENHARIA DE SISTEMAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.333333" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ENTOMOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "25.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ENTOMOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ETNOBIOLOGIA E CONSERVACAO DA NATUREZA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "19.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "FITOPATOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.333333" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "FITOPATOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "16.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "GESTAO DO DESENVOLVIMENTO LOCAL SUSTENTAVEL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "9.333333" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "GESTAO DO DESENVOLVIMENTO LOCAL SUSTENTAVEL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.75" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "GESTAO DO DESENVOLVIMENTO LOCAL SUSTENTAVEL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "GESTAO DO DESENVOLVIMENTO LOCAL SUSTENTAVEL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "8.206897" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.486486" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.894737" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "HISTORIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.375" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "INDUSTRIAS CRIATIVAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.648648" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "INDUSTRIAS CRIATIVAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.275" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "INDUSTRIAS CRIATIVAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.288889" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "INDUSTRIAS CRIATIVAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.592592" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "LETRAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.777778" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "LETRAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.277778" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "LETRAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "10.666667" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "LETRAS" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.954545" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "QUIMICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "QUIMICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "10.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "QUIMICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "RECURSOS PESQUEIROS E AQUICULTURA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "20.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "RECURSOS PESQUEIROS E AQUICULTURA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "23.666666" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "RECURSOS PESQUEIROS E AQUICULTURA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.666667" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "RECURSOS PESQUEIROS E AQUICULTURA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "7.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "TECNOLOGIA E GESTAO EM EDUCACAO A DISTANCIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "24.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "TEOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "TEOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "15.736842" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "TEOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.3125" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "TEOLOGIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "11.4" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ZOOTECNIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "10.764706" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNICAP" } ,
+        "programaNome": { "type": "literal" , "value": "ZOOTECNIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "8.5" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNIFBV_WYDEN" } ,
+        "programaNome": { "type": "literal" , "value": "AGRONOMIA  PRODUCAO VEGETAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "4.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNIFBV_WYDEN" } ,
+        "programaNome": { "type": "literal" , "value": "GESTAO EMPRESARIAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "7.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNIFBV_WYDEN" } ,
+        "programaNome": { "type": "literal" , "value": "MEDICINA TROPICAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNIFBV_WYDEN" } ,
+        "programaNome": { "type": "literal" , "value": "SAUDE PUBLICA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "8.333333" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNIFBV_WYDEN" } ,
+        "programaNome": { "type": "literal" , "value": "SAUDE TRANSLACIONAL" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNIFG_FG" } ,
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "10.921053" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNIFG_FG" } ,
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.653846" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNIFG_FG" } ,
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.857142" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNIFG_FG" } ,
+        "programaNome": { "type": "literal" , "value": "DIREITO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "13.75" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNIFG_FG" } ,
+        "programaNome": { "type": "literal" , "value": "SAUDE DA CRIANCA E DO ADOLESCENTE" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "2.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNIVASF" } ,
+        "programaNome": { "type": "literal" , "value": "DINAMICAS DE DESENVOLVIMENTO DO SEMIARIDO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UNIVASF" } ,
+        "programaNome": { "type": "literal" , "value": "DINAMICAS DE DESENVOLVIMENTO DO SEMIARIDO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UPE" } ,
+        "programaNome": { "type": "literal" , "value": "BIOMETRIA E ESTATISTICA APLICADA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UPE" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA E TECNOLOGIA AMBIENTAL PARA O SEMIARIDO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UPE" } ,
+        "programaNome": { "type": "literal" , "value": "CIENCIA E TECNOLOGIA AMBIENTAL PARA O SEMIARIDO" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "25.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UPE" } ,
+        "programaNome": { "type": "literal" , "value": "ENFERMAGEM - FESP-UPE - UEPB" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "1.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UPE" } ,
+        "programaNome": { "type": "literal" , "value": "ENFERMAGEM - FESP-UPE - UEPB" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "2.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UPE" } ,
+        "programaNome": { "type": "literal" , "value": "FORMACAO DE PROFESSORES E PRATICAS INTERDISCIPLINARES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "14.421053" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UPE" } ,
+        "programaNome": { "type": "literal" , "value": "FORMACAO DE PROFESSORES E PRATICAS INTERDISCIPLINARES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.384615" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UPE" } ,
+        "programaNome": { "type": "literal" , "value": "FORMACAO DE PROFESSORES E PRATICAS INTERDISCIPLINARES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "6.75" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UPE" } ,
+        "programaNome": { "type": "literal" , "value": "FORMACAO DE PROFESSORES E PRATICAS INTERDISCIPLINARES" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "12.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UPE" } ,
+        "programaNome": { "type": "literal" , "value": "GEOGRAFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2017" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "1.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UPE" } ,
+        "programaNome": { "type": "literal" , "value": "GEOGRAFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2018" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "21.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UPE" } ,
+        "programaNome": { "type": "literal" , "value": "GEOGRAFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2019" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "19.0" }
+      } ,
+      { 
+        "instituicaoDisplay": { "type": "literal" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ICT_UPE" } ,
+        "programaNome": { "type": "literal" , "value": "GEOGRAFIA" } ,
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2020" } ,
+        "mediaCiteScore": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "16.0" }
+      }
+    ]
+  }
+}
