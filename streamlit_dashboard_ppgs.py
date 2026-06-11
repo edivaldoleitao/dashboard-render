@@ -241,13 +241,9 @@ def load_data():
 
     for params in attempts:
         try:
-            df = pd.read_csv(
-                csv_path,
-                engine="python",
-                on_bad_lines="skip",
-                quotechar='"',
-                escapechar="\\",
-                **params
+            df = pd.read_parquet(
+                "C:/Users/UsuarioPc/Documents/streamlit/producao_pos_pe_2017_2024_turbo.parquet",
+                engine="pyarrow",
             )
             if df.shape[1] > 1:
                 data = df
