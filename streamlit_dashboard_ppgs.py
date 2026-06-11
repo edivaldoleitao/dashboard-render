@@ -223,7 +223,7 @@ def build_sankey(df, source_col, target_col, top_n=12):
 @st.cache_data(show_spinner=False)
 def load_data():
     base = Path(__file__).resolve().parent if "__file__" in globals() else Path.cwd()
-    csv_path = base / "producao_pos_pe_2017_2024_turbo.csv"
+    csv_path = base / "producao_pos_pe_2017_2024_turbo.parquet"
 
     if not csv_path.exists():
         st.error("Arquivo producao_pos_pe_2017_2024_turbo.csv não encontrado.")
@@ -242,7 +242,7 @@ def load_data():
     for params in attempts:
         try:
             df = pd.read_parquet(
-                "C:/Users/UsuarioPc/Documents/streamlit/producao_pos_pe_2017_2024_turbo.parquet",
+                csv_path,
                 engine="pyarrow",
             )
             if df.shape[1] > 1:
