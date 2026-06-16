@@ -528,103 +528,241 @@ st.write("")
 
 
 # ============================================================
-# RELAÇÕES ENTRE CAMPOS
+# PRODUÇÕES POR PPG E EVOLUÇÃO DO CONCEITO
 # ============================================================
-st.markdown("## 🔗 Relações entre campos")
+st.markdown("## 📊 Produções por PPG e evolução do conceito")
 
-relation_cols = available_cols(
-    filtered,
-    [
-        "instituicao",
-        "programaNome",
-        "ano",
-        "conceito",
-        "sigla_ies",
-        "regiao",
-        "uf",
-        "municipio",
-        "NM_CURSO",
-        "NM_GRAU_CURSO",
-        "DS_SITUACAO_CURSO",
-        "DS_NATUREZA",
-        "SCOPUS_SUBTYPE",
-        "status_juridico",
-        "dependencia_adm",
-        "organizacao_academica",
-    ],
+
+def top_ppgs_by_productions(df, n=10):
+    if "ID_PRODUCAO_INTELECTUAL" in df.columns:
+        ranking = (
+            df.groupby("programaNome")["ID_PRODUCAO_INTELECTUAL"]
+            .nunique()
+            .sort_values(ascending=False)
+        )
+    else:
+        ranking = (
+            df.groupby("programaNome")
+            .size()
+            .sort_values(ascending=False)
+        )
+
+    return ranking.head(n).index.tolist()
+
+
+def build_productions_by_ppg_year_chart(df, focus_ppgs):
+    tmp = df[df["programaNome"].isin(focus_ppgs)].copy()
+
+    if tmp.empty:
+        return None
+
+    if "ID_PRODUCAO_INTELECTUAL" in tmp.columns:
+        prod_year = (
+            tmp.groupby(["ano", "programaNome"])["ID_PRODUCAO_INTELECTUAL"]
+            .nunique()
+            .reset_index(name="total_producoes")
+        )
+    else:
+        prod_year = (
+            tmp.groupby(["ano", "programaNome"])
+            .size()
+            .reset_index(name="total_producoes")
+        )
+
+    fig = px.line(
+        prod_year,
+        x="ano",
+        y="total_producoes",
+        color="programaNome",
+        markers=True,
+        labels={
+            "ano": "Ano",
+            "total_producoes": "Quantidade de produções",
+            "programaNome": "PPG",
+        },
+    )
+
+    fig.update_layout(
+        height=800,
+        template="plotly_white",
+        legend_title_text="PPG",
+        margin=dict(l=20, r=20, t=40, b=20),
+    )
+
+    return fig
+
+
+def build_concept_evolution_chart(df, focus_ppgs):
+
+    if "conceito" not in df.columns:
+        return None
+
+    tmp = df[df["programaNome"].isin(focus_ppgs)].copy()
+
+    tmp = tmp.dropna(subset=["ano", "conceito"])
+
+    tmp = tmp[tmp["conceito"] > 0]
+
+    if tmp.empty:
+        return None
+
+    concept_year = (
+        tmp.groupby(
+            ["ano", "programaNome"],
+            as_index=False
+        )
+        .agg(
+            conceito_medio=("conceito", "mean")
+        )
+        .sort_values(
+            ["programaNome", "ano"]
+        )
+    )
+
+    # --------------------------------------------------
+    # JITTER PARA EVITAR SOBREPOSIÇÃO DE LINHAS IGUAIS
+    # --------------------------------------------------
+    ppg_ids = {
+        ppg: i
+        for i, ppg in enumerate(
+            sorted(concept_year["programaNome"].unique())
+        )
+    }
+
+    concept_year["offset"] = (
+        concept_year["programaNome"]
+        .map(ppg_ids)
+        * 0.03
+    )
+
+    concept_year["conceito_plot"] = (
+        concept_year["conceito_medio"]
+        + concept_year["offset"]
+    )
+
+    fig = px.line(
+        concept_year,
+        x="ano",
+        y="conceito_plot",
+        color="programaNome",
+        markers=True,
+        hover_data={
+            "conceito_medio": True,
+            "offset": False,
+            "conceito_plot": False,
+        },
+        labels={
+            "ano": "Ano",
+            "conceito_plot": "Conceito",
+            "programaNome": "PPG",
+        },
+    )
+
+    fig.update_layout(
+        height=800,
+        template="plotly_white",
+        legend_title_text="PPG",
+        margin=dict(l=20, r=20, t=40, b=20),
+    )
+
+    fig.update_yaxes(
+        tickmode="linear",
+        dtick=1
+    )
+
+    return fig
+
+# ============================================================
+# DEFINIÇÃO DOS PPGS EXIBIDOS
+# ============================================================
+
+program_selected = st.multiselect(
+    "Selecionar programas",
+    program_options,
+    default=[]
 )
 
-if len(relation_cols) >= 2:
-    r1, r2, r3 = st.columns([1, 1, 0.5])
+focus_ppgs = (
+    program_selected
+    if program_selected
+    else top_ppgs_by_productions(filtered, n=13)
+)
 
-    with r1:
-        source_col = st.selectbox("Origem", relation_cols, index=0)
-    with r2:
-        target_index = 1 if len(relation_cols) > 1 else 0
-        target_col = st.selectbox("Destino", relation_cols, index=target_index)
-    with r3:
-        top_n = st.slider("Top", 5, 25, 12)
+chart_df = filtered[
+    filtered["programaNome"].isin(focus_ppgs)
+].copy()
 
-    left, right = st.columns(2)
 
-    with left:
-        st.markdown('<div class="panel">', unsafe_allow_html=True)
-        st.subheader("Sankey")
-        sankey = build_sankey(filtered, source_col, target_col, top_n=top_n)
-        if sankey is not None:
-            st.plotly_chart(sankey, use_container_width=True)
-        else:
-            st.info("Sem dados suficientes para montar o Sankey.")
-        st.markdown('</div>', unsafe_allow_html=True)
+# ============================================================
+# GRÁFICO 1
+# ============================================================
 
-    with right:
-        st.markdown('<div class="panel">', unsafe_allow_html=True)
-        st.subheader("Matriz de relação")
-        tmp = filtered[[source_col, target_col]].dropna().copy()
-        if not tmp.empty:
-            matrix = pd.crosstab(tmp[source_col], tmp[target_col])
-            fig_heat = px.imshow(matrix, aspect="auto", text_auto=True, labels=dict(x=target_col, y=source_col, color="Qtd"))
-            fig_heat.update_layout(height=520, template="plotly_white")
-            st.plotly_chart(fig_heat, use_container_width=True)
-        else:
-            st.info("Sem dados suficientes para a matriz.")
-        st.markdown('</div>', unsafe_allow_html=True)
+st.markdown(
+    '<div class="panel">',
+    unsafe_allow_html=True
+)
+
+st.subheader(
+    "Quantidade de produções por ano de cada PPG"
+)
+
+fig_prod = build_productions_by_ppg_year_chart(
+    chart_df,
+    focus_ppgs,
+)
+
+if fig_prod is not None:
+    st.plotly_chart(
+        fig_prod,
+        use_container_width=True,
+    )
 else:
-    st.info("Poucas colunas categóricas disponíveis para montar relações entre campos.")
+    st.info(
+        "Sem dados suficientes para o gráfico."
+    )
+
+st.markdown(
+    '</div>',
+    unsafe_allow_html=True
+)
 
 st.write("")
 
 
 # ============================================================
-# EVOLUÇÃO TEMPORAL
+# GRÁFICO 2
 # ============================================================
-st.markdown("## 📈 Evolução temporal")
 
-e1, e2 = st.columns(2)
+st.markdown(
+    '<div class="panel">',
+    unsafe_allow_html=True
+)
 
-with e1:
-    st.markdown('<div class="panel">', unsafe_allow_html=True)
-    st.subheader("Quantidade de Produções por ano")
-    yearly = filtered.groupby("ano").size().reset_index(name="registros")
-    fig_year = px.bar(yearly, x="ano", y="registros")
-    fig_year.update_layout(height=400, template="plotly_white")
-    st.plotly_chart(fig_year, use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
+st.subheader(
+    "Evolução do conceito de cada PPG por ano"
+)
 
-with e2:
-    st.markdown('<div class="panel">', unsafe_allow_html=True)
-    st.subheader("Conceito médio por ano")
-    if filtered["conceito"].notna().any():
-        concept_year = filtered.groupby("ano").agg(conceito_medio=("conceito", "mean")).reset_index()
-        fig_concept = px.line(concept_year, x="ano", y="conceito_medio", markers=True)
-        fig_concept.update_layout(height=400, template="plotly_white")
-        st.plotly_chart(fig_concept, use_container_width=True)
-    else:
-        st.info("A coluna de conceito não tem valores no recorte filtrado.")
-    st.markdown('</div>', unsafe_allow_html=True)
+fig_concept = build_concept_evolution_chart(
+    chart_df,
+    focus_ppgs,
+)
+
+if fig_concept is not None:
+    st.plotly_chart(
+        fig_concept,
+        use_container_width=True,
+    )
+else:
+    st.info(
+        "Sem dados suficientes para o gráfico."
+    )
+
+st.markdown(
+    '</div>',
+    unsafe_allow_html=True
+)
 
 st.write("")
-
 
 # ============================================================
 # TOP PROGRAMAS
