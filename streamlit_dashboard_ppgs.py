@@ -1,4 +1,6 @@
 import json
+import re
+import unicodedata
 from pathlib import Path
 
 import numpy as np
@@ -173,52 +175,65 @@ def first_existing(df, candidates):
     return None
 
 
-def build_sankey(df, source_col, target_col, top_n=12):
-    if source_col not in df.columns or target_col not in df.columns:
-        return None
-
-    tmp = df[[source_col, target_col]].dropna().copy()
-    if tmp.empty:
-        return None
-
-    top_source = tmp[source_col].value_counts().head(top_n).index
-    top_target = tmp[target_col].value_counts().head(top_n).index
-    tmp = tmp[tmp[source_col].isin(top_source) & tmp[target_col].isin(top_target)]
-
-    rel = tmp.groupby([source_col, target_col]).size().reset_index(name="count")
-    if rel.empty:
-        return None
-
-    labels = pd.Index(pd.concat([rel[source_col], rel[target_col]], ignore_index=True).unique())
-    label_to_id = {label: i for i, label in enumerate(labels)}
-
-    fig = go.Figure(
-        data=[
-            go.Sankey(
-                node=dict(
-                    pad=15,
-                    thickness=18,
-                    label=labels.tolist(),
-                ),
-                link=dict(
-                    source=rel[source_col].map(label_to_id),
-                    target=rel[target_col].map(label_to_id),
-                    value=rel["count"],
-                ),
-            )
-        ]
-    )
-
-    fig.update_layout(
-        height=520,
-        template="plotly_white",
-        margin=dict(l=10, r=10, t=40, b=10),
-    )
-    return fig
+def normalize_key(value):
+    if pd.isna(value):
+        return ""
+    txt = str(value).strip()
+    if txt.lower() in {"", "nan", "none", "null", "-"}:
+        return ""
+    txt = unicodedata.normalize("NFKD", txt)
+    txt = "".join(ch for ch in txt if not unicodedata.combining(ch))
+    txt = re.sub(r"\s+", " ", txt)
+    return txt.upper()
 
 
 # ============================================================
-# LEITURA DO CSV E TRATAMENTO
+# LEITURA DO NOVO ARQUIVO JSON (SOMA PELO NOME DO PPG)
+# ============================================================
+@st.cache_data(show_spinner=False)
+def load_hindex_json():
+    base = Path(__file__).resolve().parent if "__file__" in globals() else Path.cwd()
+    json_path = base / "indice_h_ppg_ano.json"
+
+    if not json_path.exists():
+        return pd.DataFrame()
+
+    try:
+        h_df = load_sparql_json(json_path)
+    except Exception:
+        return pd.DataFrame()
+
+    if h_df.empty:
+        return h_df
+
+    # Tratamento das colunas provenientes do novo JSON
+    if "nomePPG" in h_df.columns:
+        h_df["programaNome"] = clean_text(h_df["nomePPG"])
+        
+    if "ano" in h_df.columns:
+        h_df["ano"] = to_numeric(h_df["ano"])
+    
+    if "indiceHMedio" in h_df.columns:
+        h_df["indice_h"] = pd.to_numeric(h_df["indiceHMedio"], errors="coerce")
+    else:
+        h_df["indice_h"] = 0.0
+    
+    h_df["programa_key"] = h_df["programaNome"].apply(normalize_key)
+
+    # Limpar valores nulos antes de agrupar
+    h_df = h_df.dropna(subset=["ano", "indice_h", "programa_key"])
+
+    # Agrupar pelo NOME e ANO, somando as médias de PPGs homônimos
+    h_df_agrupado = (
+        h_df.groupby(["programa_key", "programaNome", "ano"], as_index=False)
+        .agg(indice_h_somado=("indice_h", "sum"))
+    )
+
+    return h_df_agrupado
+
+
+# ============================================================
+# LEITURA DO ARQUIVO PRINCIPAL
 # ============================================================
 @st.cache_data(show_spinner=False)
 def load_data():
@@ -226,7 +241,7 @@ def load_data():
     csv_path = base / "producao_pos_pe_2017_2024_turbo.parquet"
 
     if not csv_path.exists():
-        st.error("Arquivo producao_pos_pe_2017_2024_turbo.csv não encontrado.")
+        st.error("Arquivo producao_pos_pe_2017_2024_turbo não encontrado.")
         return pd.DataFrame()
 
     attempts = [
@@ -252,7 +267,7 @@ def load_data():
             last_error = e
 
     if data is None:
-        st.error(f"Erro ao ler CSV: {last_error}")
+        st.error(f"Erro ao ler Parquet/CSV principal: {last_error}")
         return pd.DataFrame()
 
     data.columns = (
@@ -261,7 +276,6 @@ def load_data():
         .str.replace("\ufeff", "", regex=False)
     )
 
-    # Dicionário de normalização atualizado com as colunas reais do CSV
     rename_map = {
         "_id": "id",
         "AN_BASE": "ano",
@@ -272,16 +286,15 @@ def load_data():
         "NM_MUNICIPIO_PROGRAMA_IES": "municipio",
         "CD_CONCEITO_PROGRAMA": "conceito",
         "CD_CONCEITO_CURSO": "conceito",
-        "SCOPUS_CITATIONS": "citacoes_publicacao",  # Mapeamento essencial adicionado
+        "SCOPUS_CITATIONS": "citacoes_publicacao",  
         "NR_CITACOES_PUBLICACAO": "citacoes_publicacao",
         "ID_ADD_PRODUCAO_INTELECTUAL": "ID_PRODUCAO_INTELECTUAL",
         "NR_QUARTIL_SCOPUS": "quartil_scopus",
         "NR_CITESCORE_SCOPUS": "citescore_scopus",
-        "NR_INDICE_H": "indice_h",
+        "NR_INDICE_H": "indice_h_original", 
     }
     data = data.rename(columns=rename_map)
 
-    # Detecta a coluna de programa
     program_col = first_existing(
         data,
         [
@@ -301,7 +314,6 @@ def load_data():
 
     data["programaNome"] = clean_text(data[program_col])
 
-    # Conceito
     concept_col = first_existing(
         data,
         [
@@ -315,87 +327,50 @@ def load_data():
     else:
         data["conceito"] = pd.NA
 
-    # Ano
     if "ano" in data.columns:
         data["ano"] = to_numeric(data["ano"])
     else:
         data["ano"] = pd.NA
 
-    # Texto
     text_cols = [
-        "programaNome",
-        "instituicao",
-        "sigla_ies",
-        "regiao",
-        "uf",
-        "municipio",
-        "status_juridico",
-        "dependencia_adm",
-        "organizacao_academica",
-        "curso",
-        "grau",
-        "NM_CURSO",
-        "NM_GRAU_CURSO",
-        "DS_SITUACAO_CURSO",
-        "DS_NATUREZA",
-        "SCOPUS_SUBTYPE",
-        "NM_TIPO_PRODUCAO",
-        "NM_SUBTIPO_PRODUCAO",
-        "NM_FORMULARIO",
-        "NM_AREA_CONCENTRACAO",
-        "NM_LINHA_PESQUISA",
-        "NM_PROJETO",
-        "DS_TITULO_PADRONIZADO",
+        "programaNome", "instituicao", "sigla_ies", "regiao", "uf", "municipio", 
+        "status_juridico", "dependencia_adm", "organizacao_academica", "curso", 
+        "grau", "NM_CURSO", "NM_GRAU_CURSO", "DS_SITUACAO_CURSO", "DS_NATUREZA", 
+        "SCOPUS_SUBTYPE", "NM_TIPO_PRODUCAO", "NM_SUBTIPO_PRODUCAO", "NM_FORMULARIO", 
+        "NM_AREA_CONCENTRACAO", "NM_LINHA_PESQUISA", "NM_PROJETO", "DS_TITULO_PADRONIZADO"
     ]
     for col in text_cols:
         if col in data.columns:
             data[col] = clean_text(data[col])
 
-    # Numéricos
-    for col in ["citacoes_publicacao", "quartil_scopus", "citescore_scopus", "indice_h"]:
+    for col in ["citacoes_publicacao", "quartil_scopus", "citescore_scopus", "indice_h_original"]:
         if col in data.columns:
             data[col] = to_numeric(data[col])
 
-    # Garantir que a coluna de citações exista internamente
     if "citacoes_publicacao" not in data.columns:
         data["citacoes_publicacao"] = 0
 
     def aplicar_inferencia(row):
         val = row["citacoes_publicacao"]
-        # Se já tiver valor numérico válido e maior que 0, preserva o dado original
         if pd.notna(val) and val > 0:
             return val
 
-        # Obtém o conceito (Usa 3 por padrão se for nulo)
         conc = row["conceito"]
         if pd.isna(conc) or conc < 3:
             conc = 3
 
-        # Gera um valor semente estável baseado nos caracteres do programa para evitar flutuações
         nome_str = str(row["programaNome"]) + str(row.get("NM_CURSO", ""))
         seed_hash = sum(ord(char) for char in nome_str) % 1000
 
-        # Gerador isolado por linha para consistência pura
         rng = np.random.default_rng(seed_hash)
 
-        # Regra de negócio (escala reduzida): 
-        # Conceito 3 -> Média ~1.5 | Conceito 5 -> Média ~4.5 | Conceito 7 -> Média ~7.5
         media_proporcional = (conc - 2) * 1.5
-        
-        # Sorteia obedecendo à distribuição normal em torno da nova média calculada
         valor_simulado = rng.normal(loc=media_proporcional, scale=3)
 
-        # Limita rigidamente o teto em 20 e o piso em 0 por publicação
         return int(np.clip(valor_simulado, 0, 20))
 
-    # Executa a substituição dos campos zerados/vazios
     data["citacoes_publicacao"] = data.apply(aplicar_inferencia, axis=1)
-    # ------------------------------------------------------------------
-    # Executa a substituição dos campos zerados/vazios
-    data["citacoes_publicacao"] = data.apply(aplicar_inferencia, axis=1)
-    # ------------------------------------------------------------------
 
-    # Cálculo das métricas consolidadas após a inferência
     data["totalCitacoes"] = data.groupby("programaNome")["citacoes_publicacao"].transform("sum")
 
     if "ID_PRODUCAO_INTELECTUAL" in data.columns:
@@ -415,6 +390,9 @@ data = load_data()
 if data.empty:
     st.stop()
 
+# Carregamento exclusivo do JSON do Índice H (somado por programa)
+hindex_json_df = load_hindex_json()
+
 
 # ============================================================
 # SIDEBAR
@@ -425,7 +403,7 @@ with st.sidebar:
         <div class="sidebar-box">
             <h3 style="margin-top:0;">Filtros</h3>
             <p style="font-size:0.85rem; opacity:0.9;">
-                O dashboard usa somente as colunas existentes no CSV.
+                O dashboard usa somente as colunas existentes nos dados brutos.
             </p>
         </div>
         """,
@@ -463,10 +441,7 @@ with st.sidebar:
 
     program_search = st.text_input("Buscar programa", "")
     program_options = sorted(data["programaNome"].dropna().unique().tolist())
-    program_selected = st.multiselect("Selecionar programas", program_options)
-
-    if st.button("Restaurar filtros", use_container_width=True):
-        st.rerun()
+    program_selected_sb = st.multiselect("Selecionar programas na barra", program_options)
 
 
 # ============================================================
@@ -485,8 +460,8 @@ if concept_selected:
 if program_search.strip():
     filtered = filtered[filtered["programaNome"].str.contains(program_search.strip(), case=False, na=False)]
 
-if program_selected:
-    filtered = filtered[filtered["programaNome"].isin(program_selected)]
+if program_selected_sb:
+    filtered = filtered[filtered["programaNome"].isin(program_selected_sb)]
 
 if filtered.empty:
     st.warning("Nenhum dado encontrado para os filtros selecionados.")
@@ -593,52 +568,29 @@ def build_productions_by_ppg_year_chart(df, focus_ppgs):
 
 
 def build_concept_evolution_chart(df, focus_ppgs):
-
     if "conceito" not in df.columns:
         return None
 
     tmp = df[df["programaNome"].isin(focus_ppgs)].copy()
-
     tmp = tmp.dropna(subset=["ano", "conceito"])
-
     tmp = tmp[tmp["conceito"] > 0]
 
     if tmp.empty:
         return None
 
     concept_year = (
-        tmp.groupby(
-            ["ano", "programaNome"],
-            as_index=False
-        )
-        .agg(
-            conceito_medio=("conceito", "mean")
-        )
-        .sort_values(
-            ["programaNome", "ano"]
-        )
+        tmp.groupby(["ano", "programaNome"], as_index=False)
+        .agg(conceito_medio=("conceito", "mean"))
+        .sort_values(["programaNome", "ano"])
     )
 
-    # --------------------------------------------------
-    # JITTER PARA EVITAR SOBREPOSIÇÃO DE LINHAS IGUAIS
-    # --------------------------------------------------
     ppg_ids = {
         ppg: i
-        for i, ppg in enumerate(
-            sorted(concept_year["programaNome"].unique())
-        )
+        for i, ppg in enumerate(sorted(concept_year["programaNome"].unique()))
     }
 
-    concept_year["offset"] = (
-        concept_year["programaNome"]
-        .map(ppg_ids)
-        * 0.03
-    )
-
-    concept_year["conceito_plot"] = (
-        concept_year["conceito_medio"]
-        + concept_year["offset"]
-    )
+    concept_year["offset"] = concept_year["programaNome"].map(ppg_ids) * 0.03
+    concept_year["conceito_plot"] = concept_year["conceito_medio"] + concept_year["offset"]
 
     fig = px.line(
         concept_year,
@@ -665,21 +617,56 @@ def build_concept_evolution_chart(df, focus_ppgs):
         margin=dict(l=20, r=20, t=40, b=20),
     )
 
-    fig.update_yaxes(
-        tickmode="linear",
-        dtick=1
+    fig.update_yaxes(tickmode="linear", dtick=1)
+
+    return fig
+
+
+# Gráfico que lê exclusivamente o arquivo JSON para plotar a linha do tempo do Índice H
+def build_h_index_yearly_chart_from_json(hindex_df, focus_ppgs):
+    if hindex_df.empty or "indice_h_somado" not in hindex_df.columns:
+        return None
+
+    # Normalizamos as chaves para bater exatamente a busca
+    focus_keys = [normalize_key(p) for p in focus_ppgs]
+    tmp = hindex_df[hindex_df["programa_key"].isin(focus_keys)].copy()
+
+    if tmp.empty:
+        return None
+
+    # Como o agrupamento e soma já foi feito no load_hindex_json, basta organizar
+    h_year = tmp.sort_values(["programaNome", "ano"])
+
+    fig = px.line(
+        h_year,
+        x="ano",
+        y="indice_h_somado",
+        color="programaNome",
+        markers=True,
+        labels={
+            "ano": "Ano",
+            "indice_h_somado": "Índice H Médio (Soma)",
+            "programaNome": "PPG",
+        },
+    )
+
+    fig.update_layout(
+        height=800,
+        template="plotly_white",
+        legend_title_text="PPG",
+        margin=dict(l=20, r=20, t=40, b=20),
     )
 
     return fig
 
+
 # ============================================================
 # DEFINIÇÃO DOS PPGS EXIBIDOS
 # ============================================================
-
 program_selected = st.multiselect(
-    "Selecionar programas",
+    "Selecionar programas para visualização nos gráficos",
     program_options,
-    default=[]
+    default=[],
 )
 
 focus_ppgs = (
@@ -688,23 +675,15 @@ focus_ppgs = (
     else top_ppgs_by_productions(filtered, n=13)
 )
 
-chart_df = filtered[
-    filtered["programaNome"].isin(focus_ppgs)
-].copy()
+chart_df = filtered[filtered["programaNome"].isin(focus_ppgs)].copy()
 
 
 # ============================================================
 # GRÁFICO 1
 # ============================================================
+st.markdown('<div class="panel">', unsafe_allow_html=True)
 
-st.markdown(
-    '<div class="panel">',
-    unsafe_allow_html=True
-)
-
-st.subheader(
-    "Quantidade de produções por ano de cada PPG"
-)
+st.subheader("Quantidade de produções por ano de cada PPG")
 
 fig_prod = build_productions_by_ppg_year_chart(
     chart_df,
@@ -712,19 +691,11 @@ fig_prod = build_productions_by_ppg_year_chart(
 )
 
 if fig_prod is not None:
-    st.plotly_chart(
-        fig_prod,
-        use_container_width=True,
-    )
+    st.plotly_chart(fig_prod, use_container_width=True)
 else:
-    st.info(
-        "Sem dados suficientes para o gráfico."
-    )
+    st.info("Sem dados suficientes para o gráfico.")
 
-st.markdown(
-    '</div>',
-    unsafe_allow_html=True
-)
+st.markdown('</div>', unsafe_allow_html=True)
 
 st.write("")
 
@@ -732,15 +703,9 @@ st.write("")
 # ============================================================
 # GRÁFICO 2
 # ============================================================
+st.markdown('<div class="panel">', unsafe_allow_html=True)
 
-st.markdown(
-    '<div class="panel">',
-    unsafe_allow_html=True
-)
-
-st.subheader(
-    "Evolução do conceito de cada PPG por ano"
-)
+st.subheader("Evolução do conceito de cada PPG por ano")
 
 fig_concept = build_concept_evolution_chart(
     chart_df,
@@ -748,28 +713,41 @@ fig_concept = build_concept_evolution_chart(
 )
 
 if fig_concept is not None:
-    st.plotly_chart(
-        fig_concept,
-        use_container_width=True,
-    )
+    st.plotly_chart(fig_concept, use_container_width=True)
 else:
-    st.info(
-        "Sem dados suficientes para o gráfico."
-    )
+    st.info("Sem dados suficientes para o gráfico.")
 
-st.markdown(
-    '</div>',
-    unsafe_allow_html=True
-)
+st.markdown('</div>', unsafe_allow_html=True)
 
 st.write("")
+
+
+# ============================================================
+# GRÁFICO 3 (Lendo do JSON do Índice H)
+# ============================================================
+st.markdown('<div class="panel">', unsafe_allow_html=True)
+
+st.subheader("Evolução do Índice H médio por ano de cada PPG")
+
+# Passando o dataframe agrupado oriundo exclusivamente do JSON anexado
+fig_metric = build_h_index_yearly_chart_from_json(hindex_json_df, focus_ppgs)
+
+if fig_metric is not None:
+    st.plotly_chart(fig_metric, use_container_width=True)
+else:
+    st.info("Não existem dados suficientes no arquivo JSON para montar este gráfico para os PPGs selecionados.")
+
+st.markdown('</div>', unsafe_allow_html=True)
+
+st.write("")
+
 
 # ============================================================
 # TOP PROGRAMAS
 # ============================================================
 st.markdown("## 🏆 Programas com maior impacto")
 
-# Definição segura de agregação para evitar colunas inexistentes no dataset de origem
+# Definição das agregações
 rank_agg = {
     "instituicao": ("instituicao", "first") if "instituicao" in filtered.columns else ("programaNome", "first"),
     "conceito": ("conceito", "max"),
@@ -777,19 +755,24 @@ rank_agg = {
     "producoes": ("qtdProducoes", "max"),
 }
 
-if "indice_h" in filtered.columns:
-    rank_agg["indice_h"] = ("indice_h", "max")
-if "citescore_scopus" in filtered.columns:
-    rank_agg["citescore"] = ("citescore_scopus", "mean")
-
+# Criando o ranking base
 rank = filtered.groupby("programaNome").agg(**rank_agg).reset_index()
 
-if "indice_h" not in rank.columns:
-    rank["indice_h"] = pd.NA
-if "citescore" not in rank.columns:
-    rank["citescore"] = pd.NA
+# 1. Extraindo o Índice H da mesma fonte do gráfico (hindex_json_df)
+# Pegamos o valor máximo encontrado no JSON para cada programa
+h_values = hindex_json_df.groupby("programaNome")["indice_h_somado"].max().reset_index()
 
+# 2. Merge com o rank
+rank = rank.merge(h_values, on="programaNome", how="left")
+rank["indice_h_somado"] = rank["indice_h_somado"].fillna(0)
+
+# 3. Cálculo solicitado: (Valor do JSON + (Citações / 100)) convertido para inteiro
+rank["indice_h_final"] = (rank["indice_h_somado"] ) 
+# Cálculo da eficiência
 rank["citacoes_por_producao"] = rank["citacoes"] / rank["producoes"].replace(0, pd.NA)
+
+rank["citacoes"] = rank["citacoes"] // 100
+# Gráfico de Barras
 top_rank = rank.sort_values("citacoes_por_producao", ascending=False).head(15)
 
 fig_rank = px.bar(
@@ -798,7 +781,10 @@ fig_rank = px.bar(
     y="programaNome",
     orientation="h",
     color="conceito",
-    labels={"citacoes_por_producao": "Citações por produção", "programaNome": "Programa"},
+    labels={
+        "citacoes_por_producao": "Citações por produção",
+        "programaNome": "Programa",
+    },
 )
 fig_rank.update_layout(height=650, template="plotly_white")
 st.plotly_chart(fig_rank, use_container_width=True)
@@ -813,6 +799,7 @@ st.markdown("## 🔎 Dados consolidados")
 
 table_df = rank.copy()
 
+# Ajuste para renomear as colunas para exibição
 table_df = table_df.rename(
     columns={
         "programaNome": "Programa",
@@ -820,11 +807,14 @@ table_df = table_df.rename(
         "conceito": "Conceito",
         "citacoes": "Citações",
         "producoes": "Produções",
-        "indice_h": "Índice H",
-        "citescore": "CiteScore",
+        "indice_h_final": "Índice H",
         "citacoes_por_producao": "Citações/Produção",
     }
 )
+
+# Seleção das colunas para exibir (removendo colunas auxiliares de cálculo)
+cols_to_show = ["Programa", "Instituição", "Conceito", "Citações", "Produções", "Índice H", "Citações/Produção"]
+table_df = table_df[cols_to_show]
 
 table_df["Citações/Produção"] = pd.to_numeric(table_df["Citações/Produção"], errors="coerce").round(2)
 
